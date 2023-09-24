@@ -47,14 +47,17 @@ module.exports = {
         "26.6rem": "26.625rem",
         "21.7rem": "21.75rem",
         "2.4rem": "2.4375rem",
-        "15.4rem": "15.4375rem"
+        "15.4rem": "15.4375rem",
+        "32rem": "32rem",
+        "22.1rem": "22.1875rem",
+        "30.1rem": "30.125rem"
       },
       borderRadius: {
         "4xl": "1.875rem",
         "5xl": "4.0625rem",
         "6xl": "624.9375rem",
         "7xl": "12.5rem",
-        
+
       },
       boxShadow: {
         "3xl": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)",
@@ -65,6 +68,9 @@ module.exports = {
       borderWidth: {
         3: "3px",
       },
+      fontSize: {
+        "0.9rem": '0.9375rem',
+      }
     },
   },
   plugins: [],
