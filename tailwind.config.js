@@ -50,7 +50,8 @@ module.exports = {
         "15.4rem": "15.4375rem",
         "32rem": "32rem",
         "22.1rem": "22.1875rem",
-        "30.1rem": "30.125rem"
+        "30.1rem": "30.125rem",
+        "0.3rem": "0.3125rem"
       },
       borderRadius: {
         "4xl": "1.875rem",
@@ -70,6 +71,7 @@ module.exports = {
       },
       fontSize: {
         "0.9rem": '0.9375rem',
+        "0.8rem": "0.875rem"
       }
     },
   },

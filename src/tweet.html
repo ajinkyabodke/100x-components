@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-black">
+    <nav class="bg-gray-800 py-4">
+      <div class="container mx-auto flex justify-center">
+        <ul class="flex space-x-8">
+          <li>
+            <a href="../src/index.html" class="text-white hover:text-gray-400"
+              >Button</a
+            >
+          </li>
+          <li>
+            <a href="../src/input.html" class="text-white hover:text-gray-400"
+              >Input</a
+            >
+          </li>
+          <li>
+            <a href="../src/cards.html" class="text-white hover:text-gray-400"
+              >Card</a
+            >
+          </li>
+          <li>
+            <a href="../src/tweet.html" class="text-white hover:text-gray-400"
+              >Tweet</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <article
+      class="m-5 flex w-37.3rem items-start gap-4 border-b border-neutral-700 px-4 py-2"
+    >
+      <img
+        class="h-12 w-12 flex-shrink-0 rounded-full bg-no-repeat"
+        src="../public/images/user-image.jpeg"
+      />
+      <div class="flex flex-shrink flex-col items-start gap-2">
+        <div class="flex flex-col items-start gap-2 self-stretch">
+          <div class="flex items-center gap-2.5 self-stretch">
+            <div class="flex items-center gap-2">
+              <p class="text-base font-medium text-neutral-50">Ajinkya Bodke</p>
+              <p class="text-base font-normal text-neutral-500">
+                @AjinkyaB • 10h
+              </p>
+            </div>
+          </div>
+          <div class="self-stretch">
+            <p class="text text-base font-normal text-neutral-50">
+              Writing gets easier after the first sentence.<br /><br />Lifting
+              gets easier after the first set.<br /><br />People think and think
+              and think until they finally decide to act. Their attention shifts
+              from internal to external, and the difficulty they created in
+              their mind vanishes.
+            </p>
+          </div>
+        </div>
+
+        <!-- User actions -->
+        <div class="flex items-center justify-between self-stretch py-3">
+          <div class="gap-0.3rem flex items-center justify-between">
+            <img src="../public/images/comment.svg" />
+            <span class="text-0.8rem font-normal text-neutral-500">11</span>
+          </div>
+
+          <div class="gap-0.3rem flex items-center justify-between">
+            <img src="../public/images/retweet.svg" />
+            <span class="text-0.8rem font-normal text-neutral-500">269</span>
+          </div>
+
+          <div class="gap-0.3rem flex items-center justify-between">
+            <img src="../public/images/heart.svg" />
+            <span class="text-0.8rem font-normal text-neutral-500">1,869</span>
+          </div>
+
+          <div class="gap-0.3rem flex items-center justify-between">
+            <img src="../public/images/reach.svg" />
+            <span class="text-0.8rem font-normal text-neutral-500">69.9k</span>
+          </div>
+
+          <div class="gap-0.3rem flex items-center justify-between">
+            <img src="../public/images/share.svg" />
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
