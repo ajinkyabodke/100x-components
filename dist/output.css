@@ -982,6 +982,10 @@ video {
   text-align: center;
 }
 
+.text-0\.8rem {
+  font-size: 0.875rem;
+}
+
 .text-0\.9rem {
   font-size: 0.9375rem;
 }
@@ -1004,10 +1008,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-0\.8rem {
-  font-size: 0.875rem;
 }
 
 .font-bold {
@@ -1053,6 +1053,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.caret-twitter-default {
+  caret-color: #1D9BF0;
 }
 
 .shadow-3xl {
