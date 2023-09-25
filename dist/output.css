@@ -815,6 +815,11 @@ video {
   border-style: solid;
 }
 
+.border-button-stroke {
+  --tw-border-opacity: 1;
+  border-color: rgb(84 106 122 / var(--tw-border-opacity));
+}
+
 .border-neutral-500 {
   --tw-border-opacity: 1;
   border-color: rgb(115 115 115 / var(--tw-border-opacity));
@@ -1053,10 +1058,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.caret-twitter-default {
-  caret-color: #1D9BF0;
 }
 
 .shadow-3xl {
